@@ -1,0 +1,96 @@
+/* Reset default margin and padding for all elements */
+body, h1, h2, h3, p, ul, li, form, label, input, textarea {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    background: rgb(186,182,255);
+    background: linear-gradient(90deg, rgba(186,182,255,1) 0%, rgba(147,147,255,1) 50%, rgba(0,212,255,1) 100%);
+    color: white;
+    font-size: 1.5em;
+}
+header {
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    height: 30em;
+}
+header h1 {
+    margin: 0;
+    font-size: 3em;
+    margin-top: 3em;
+}
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+header nav li {
+    float: left;
+    display: inline;
+}
+
+header nav a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 8px;
+}
+header nav a:hover {
+    background-color: #5168ff;
+}
+#home h2{
+    
+}
+#home img{
+    float: right;
+}
+main {
+    padding: 20px;
+}
+main h2 {
+    margin-bottom: 10px;
+}
+main p {
+    margin-bottom: 20px;
+}
+main ul {
+    margin-bottom: 20px;
+}
+main ul li {
+    margin-bottom: 10px;
+}
+main form {
+    margin-bottom: 20px;
+}
+main label {
+    display: block;
+    margin-bottom: 5px;
+}
+#homework{
+    text-align: center;
+}
+#homework input[type=submit]{
+    width: 10%;
+    font-size: 0.8em;
+}
+#contact input {
+    width: 50%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+main textarea {
+    width: 50%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+#contact{
+    width: 40%;
+}
+footer {
+    background-color: #00367c;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
